@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "AU Wallet History Hack",
+  "version": "1.0",
+  "description": "履歴に入金を表示しない",
+  "page_action": {},
+  "content_scripts": [{
+     "matches": ["https://wallet.auone.jp/menu/history.html"],
+     "js": ["contentScript.js"]
+  }]
+}
